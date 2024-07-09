@@ -72,7 +72,7 @@ public class MotivationController {
         }
 
         System.out.printf("번호 : %d\n", foundMotivation.getId());
-        System.out.printf("날짜 : %s\n", foundMotivation.getRegDate());
+        System.out.printf("날짜 : %s\n", foundMotivation.getUpdateDate());
         System.out.printf("작가 : %s\n", foundMotivation.getAuthor());
         System.out.printf("내용 : %s\n", foundMotivation.getBody());
 
